@@ -95,7 +95,7 @@ header > div span::before {
     border-radius: 50%;
     background-color: rgba(25, 177, 25, 0.74);
     left: -15px;
-    top: 4px;
+    top: 8px;
 }
 header > div span:nth-child(2)::before {
     background-color: aqua;
@@ -221,6 +221,9 @@ header > div span:nth-child(3)::before {
     width: 50px;
     border-radius: 50%;
     margin-right: 5px;
+}
+.boxes-wrapper .box .icons {
+    margin-bottom: 1rem;
 }
 .boxes-wrapper .box p {
     font-style: italic;
